@@ -1,0 +1,187 @@
+body {
+    background-color: #fdf6ec;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    color: #4a3f35;
+}
+
+/* Header */
+
+header {
+
+    background: linear-gradient(
+        135deg,
+        #ffb347,
+        #ffcc70
+    );
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+header h1 {
+
+    font-size: 65px;
+
+    margin-bottom: 25px;
+
+    color: white;
+
+    text-shadow:
+        2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Navigation */
+
+nav {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: #8b5e3c;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+    min-width: 130px;
+
+    text-align: center;
+}
+
+nav a:hover {
+
+    background-color: #5d4037;
+
+    transform: translateY(-3px);
+}
+
+/* Main Content */
+
+section {
+    width: 85%;
+
+    margin: 30px auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 15px
+        rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+
+    color: #d2691e;
+
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+
+    line-height: 1.8;
+}
+
+/* Images */
+
+img {
+    display: block;
+
+    width: 70%;
+
+    max-width: 700px;
+
+    margin: 20px auto;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 12px
+        rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+
+button {
+    background-color: #ffb347;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    font-size: 18px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    margin: 10px;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff9800;
+
+    transform: scale(1.05);
+}
+
+/* Form */
+
+input,
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+}
+
+/* Footer */
+
+footer {
+
+    background-color: #8b5e3c;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+}
